@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -51,7 +50,7 @@ public class ControlFlowManager {
 
         PasswordVaultManager vault_manager = new PasswordVaultManager();
 
-        vault_manager.generatePassword();
+        vault_manager.addPasswordToVault();
         //vault_manager.closeInputBuffer();
         vault_manager.closeWriteBuffer();
 
